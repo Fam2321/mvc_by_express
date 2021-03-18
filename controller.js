@@ -42,7 +42,7 @@ app.listen(3000, () => {
 
 function createAccount(hashtag) {
   //create 926 account
-  for(i=1;i<926; i++)
+  for(i=1;i<=926; i++)
     accounts.push(account.Account(i,hashtag[i%5]))
 }
 
